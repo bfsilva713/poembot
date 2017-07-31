@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+  <head>
+    <title> PoemBot: Your favorite lyrics into a poem </title>
+    <link href="index.css" type="text/css" rel="stylesheet">
+  </head>
+ 
+  <body>
+    <h2> Welcome to PoemBot!</h2>
+    <h4> Feed PoemBot your favorite song lyrics, and it’ll use them to write a special poem just for you! </h4>
+    
+    <p> 
+      <form id="lyricsForm"> 
+      Feed the Bot your lyrics! <textarea class="lyrics" name="lyrics" type="text" rows="50" cols="100"> </textarea>
+      </form>
+    </p>
+    
+    <p>
+      <form id="numberOfWordsForm"> 
+        Choose how many words each line of your poem should have: <input name="numberOfWords" type="text" size="10">
+      </form>
+    </p>
+    
+    <p>
+      <form id="numberOfLinesForm"> 
+      How many lines in your poem? <input name="numberOfLines" type="text" size="10">
+      </form>
+    </p>
+    
+    <button onclick="outputPoem()"> Show me my poem, please! </button>
+    
+    <p> Here's your super special poem! Enjoy! ^__^ </p>
+    
+    <p id="poem">  </p>
+    
+    
+
+      
+     
+ 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"> </script>
+  </body>
+ 
+ 
+ 
+</html>
