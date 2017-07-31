@@ -43,7 +43,8 @@ button {
 
 #poem {
   color: PaleVioletRed;
-  float: right;
+  position: relative;
+  left: 50px;
   
 }
   
