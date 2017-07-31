@@ -1,0 +1,49 @@
+* {
+  color: White;
+  background-color: Azure;
+  background-attachment: fixed;
+  background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/02/Abstract-Blue-Background-Vector-For-Free.jpg");
+  background-size: cover;
+}
+  
+h2 {
+  color: Azure;
+  font-family: GillSans, sans-serif;
+}
+  
+h4 {
+  color: AliceBlue;
+  font-family: GillSans, sans-serif;
+}
+ 
+body {
+  color: AliceBlue;
+  font-family: Optima, sans-serif;
+}
+  
+form {
+  display: block;
+  color: AliceBlue;
+}
+
+input {
+  color: PaleVioletRed;
+
+}  
+  
+.lyrics  {
+  width: 800px;
+  height: 200px;
+  color: LightPink;
+}
+
+button {
+  color: AliceBlue;
+}
+
+#poem {
+  color: PaleVioletRed;
+  float: right;
+  
+}
+  
